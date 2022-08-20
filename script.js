@@ -8,6 +8,7 @@ $(document).ready(function () {
       $("#menu").removeClass("fa-times");
       $("header").removeClass("toggle");
     });
+    
     $(window).scroll(function () {
       if ($(this).scrollTop() >= 700) {
         $("#to-top").fadeIn();
